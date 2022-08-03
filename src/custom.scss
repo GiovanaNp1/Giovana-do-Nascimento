@@ -1,0 +1,204 @@
+// Override default variables before the import
+$theme-colors: (
+    "light": white,
+    "danger": teal
+);
+
+.me-auto{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0 !important;
+    width: 100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('./utils/image/pngfind1.png'), url('./utils/image/unnamed1.png'),
+     url('./utils/image/pngfind2.png') , url('./utils/image/image19.png'), url('./utils/image/Clip-Art-Watercolor-PNG.png'), url('./utils/image/image21.png'), url('./utils/image/Pink-Watercolor-PNG.png') ;
+    background-position: left 300px, right 500px, right 1600px, left 3000px, left 4200px, right 5500px , right 6600px;
+    background-repeat: no-repeat;
+    background-origin: content-box, border-box;
+}
+
+.contatos{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.photo-principal img{
+    width: 50%;
+    box-shadow: 29px 26px #F2A1AB;
+}
+
+.icon-contato img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+
+.photo-contatos img{
+    width: 100%;
+    box-shadow: 29px 26px #A3A1F2;
+    margin-bottom: 100px;
+}
+
+.photo-sobre img{
+    width: 50%;
+    height: fit-content;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.ai-center{
+    align-items: center;;
+}
+
+#tecnologias{
+    margin-top: 120px;
+}
+
+#projetos{
+    margin-top: 120px;
+}
+
+#sobre{
+    margin-top: 120px;
+}
+
+#contato a{
+    color: black;
+    font-family: 'Roboto';
+    text-decoration: none;
+    margin: 30px;
+}
+
+#midias{
+    margin-top: 120px;
+}
+
+.projetos h3{
+    margin-bottom: 40px;
+}
+
+.projetos img{
+    filter: contrast(50%);
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 71px;
+    /* identical to box height */
+    letter-spacing: 0.13em;
+    margin-bottom: 40px !important;
+}
+
+.tecnologias img{
+    width: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100 !important;
+    line-height: 71px;
+    /* identical to box height */
+    letter-spacing: 0.13em;
+    font-size: 20px !important;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5rem !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 71px;
+    /* identical to box height */
+    letter-spacing: 0.13em;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    margin-top: 20px !important;
+}
+
+.principal{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.carrosel-text{
+    background-color: #F2A1AB !important;
+    padding: 50px;
+    text-align: center;
+}
+
+.carrosel-img{
+    padding: 0 !important;
+}
+
+.carrosel{
+    border-radius: 25px;
+}
+
+.carrosel-img img{
+    width: 100%;
+}
+
+.carousel-item{
+    max-height: 660px !important;
+}
+
+.carrousel-text h3{
+    text-shadow: 2px 2px 5px white;
+    background-color: #F2A1AB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.carrousel-text p{
+    text-shadow: 2px 2px 5px white;
+    background-color: #F2A1AB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.btn{
+    padding: 20px 40px !important;
+    margin: 20px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn img{
+    margin-right: 10px;
+}
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
