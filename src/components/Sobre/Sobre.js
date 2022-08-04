@@ -13,15 +13,10 @@ function Sobre() {
         <Col sm={6} className="photo-principal d-flex justify-content-center flex-column">
             <h3>SOBRE</h3>
             <p>
-                Giovana do Nascimento Pena é Application Developer na IBM 
-                trabalhando em sistemas web e desenvolvimento de automações
-                e testes de software, Formada de Analise e Desenvolvimento de
-                Sistemas na Universidade UNASP, apaixonada por acessibilidade
-                e usabilidade de usuários. Participante do instituto meninas
-                negras e participante do TLC, comunidade tecnica interna na IBM,
-                em seu tempo livre ela participa de vários eventos técnicos com
-                objetivo de impactar e ensinar outras pessoas que buscam conhecer
-                mais sobre tecnologia
+            Olá! Me chamo Giovana do Nascimento Pena, é um prazer poder compartilhar minha trajetória com você! Sou Application Developer numa empresa global de tecnologia e inovação, conhecida como IBM.<br /><br />
+            O meu  trabalho consiste em desenvolvimento de Sistemas Web. Atuo também na comunidade técnica interna da IBM e participo de tarefas de implantação de acessibilidade nas aplicações. <br /><br />
+            Sou formada em Análise e Desenvolvimento de Sistemas na Universidade UNASP. Participo também do Instituto Meninas Negras, além de palestrar e coordenar diversos eventos como TLC e TDC.<br /><br />
+            O meu maior objetivo nessa área é poder impactar e ensinar outras pessoas que buscam conhecer mais sobre tecnologia para entrar ativamente no mercado.<br />
             </p>
         </Col>
       </Row>

@@ -16,30 +16,30 @@ $theme-colors: (
 body{
     background-image: url('./utils/image/pngfind1.png'), url('./utils/image/unnamed1.png'),
      url('./utils/image/pngfind2.png') , url('./utils/image/image19.png'), url('./utils/image/Clip-Art-Watercolor-PNG.png'), url('./utils/image/image21.png'), url('./utils/image/Pink-Watercolor-PNG.png') ;
-    background-position: left 300px, right 500px, right 1600px, left 3000px, left 4200px, right 5500px , right 6600px;
+    background-position: left 18.75rem, right 31.25rem, right 100rem, left 187.5rem, left 262.5rem, right 343.75rem , right 343.75rem;
     background-repeat: no-repeat;
     background-origin: content-box, border-box;
 }
 
 .contatos{
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 12.5rem;
+    margin-bottom: 12.5rem;
 }
 
 .photo-principal img{
     width: 50%;
-    box-shadow: 29px 26px #F2A1AB;
+    box-shadow: 1.813rem 1.625rem #F2A1AB;
 }
 
 .icon-contato img{
-    width: 30px;
-    margin-right: 20px;
+    width: 1.875rem;
+    margin-right: 1.25rem;
 }
 
 
 .photo-contatos img{
     width: 100%;
-    box-shadow: 29px 26px #A3A1F2;
+    box-shadow: 1.813rem 1.625rem #A3A1F2;
     margin-bottom: 100px;
 }
 
@@ -69,30 +69,47 @@ body{
 }
 
 #tecnologias{
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 
+#tecnologias h3{
+    margin-bottom: 5rem;
+}
+
+#projetos h3{
+    margin-bottom: 5rem;
+}
+
+#midias h3{
+    margin-bottom: 5rem;
+}
+
+
 #projetos{
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 
 #sobre{
-    margin-top: 120px;
+    margin-top: 7.5rem;
+}
+
+#sobre h3{
+    margin-bottom: 2.5rem;
 }
 
 #contato a{
     color: black;
     font-family: 'Roboto';
     text-decoration: none;
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 #midias{
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 
 .projetos h3{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 #midias img{
@@ -102,30 +119,35 @@ body{
 .projetos img{
     filter: contrast(50%);
     width: 100%;
+    cursor: pointer;
 }
 
 h1{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
-    line-height: 71px;
+    line-height: 4.438rem;
     /* identical to box height */
     letter-spacing: 0.13em;
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
 }
 
 .tecnologias img{
-    width: 30px;
+    width: 1.875rem;
+}
+
+#midias img{
+    cursor: pointer;
 }
 
 h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 100 !important;
-    line-height: 71px;
+    line-height: 4.438rem;
     /* identical to box height */
     letter-spacing: 0.13em;
-    font-size: 20px !important;
+    font-size: 1.25rem !important;
 }
 
 h3{
@@ -133,25 +155,25 @@ h3{
     font-size: 2.5rem !important;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
-    line-height: 71px;
+    line-height: 4.438rem;
     /* identical to box height */
     letter-spacing: 0.13em;
 }
 
 p{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Open Sans';
-    margin-top: 20px !important;
+    margin-top: 1.25rem !important;
 }
 
 .principal{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .carrosel-text{
     background-color: #F2A1AB !important;
-    padding: 50px;
+    padding: 3.125rem;
     text-align: center;
 }
 
@@ -160,7 +182,7 @@ p{
 }
 
 .carrosel{
-    border-radius: 25px;
+    border-radius: 1.563rem;
 }
 
 .carrosel-img img{
@@ -168,11 +190,11 @@ p{
 }
 
 .carousel-item{
-    max-height: 660px !important;
+    max-height: 41.25rem !important;
 }
 
 .carrousel-text h3{
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 0.125rem 0.125rem 0.313rem white;
     background-color: #F2A1AB;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -183,7 +205,7 @@ p{
 }
 
 .carrousel-text p{
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 0.125rem 0.125rem 0.313rem white;
     background-color: #F2A1AB;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -194,15 +216,15 @@ p{
 }
 
 .btn{
-    padding: 20px 40px !important;
-    margin: 20px !important;
+    padding: 1.25rem 2.5rem !important;
+    margin: 1.25rem !important;
     display: flex !important;
     align-items: center;
     justify-content: space-around;
 }
 
 .btn img{
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap";

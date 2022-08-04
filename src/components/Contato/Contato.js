@@ -13,7 +13,7 @@ function Contato() {
             <img src={photo} alt="Logo" />
         </Col>
         <Col sm={6} className="icon-contato d-flex justify-content-center flex-column">
-            <h1>CONTATO</h1>
+            <h3>CONTATO</h3>
             <a href="https://www.linkedin.com/in/giovana-do-nascimento/" ><img src='https://cdn-icons-png.flaticon.com/512/254/254394.png' alt="Linkedin" />https://www.linkedin.com/in/giovana-do-nascimento/</a>
             <a href="https://www.instagram.com/giovananp/"><img src='https://cdn-icons-png.flaticon.com/512/1077/1077042.png' alt="Instagram" />@giovananp</a>
             <a href="mailto:giovana.np1@gmail.com"><img src='https://cdn-icons-png.flaticon.com/512/561/561127.png' alt="Email" />giovana.np1@gmail.com</a>

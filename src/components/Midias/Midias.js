@@ -51,6 +51,9 @@ function Midias() {
                         className="d-block w-100"
                         src={car.image}
                         alt="First slide"
+                        onClick={() => {
+                            window.open(car.url);
+                        }}
                     />
                     <Carousel.Caption className="carrousel-text">
                         <h3>{car.name}</h3>

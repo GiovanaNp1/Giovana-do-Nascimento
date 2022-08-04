@@ -99,93 +99,129 @@ function Tecnologias() {
 
   return (
     <Container className="tecnologias" id="tecnologias">
-      <Row className="d-flex justify-content-around">
-        <Col sm={6} className="d-flex justify-content-center flex-column">
-            <h1>TECNOLOGIAS</h1>
-        </Col>
-        <Col sm={10} className="d-flex justify-content-around">
-            <Button sm={2} size="lg" style={{backgroundColor: buttons[0].color}}>
-                <img src={buttons[0].icon} alt="Logo" />
-                {buttons[0].name}
-            </Button>
-            <Button sm={2} size="lg" style={{backgroundColor: buttons[1].color}}>
-                <img src={buttons[1].icon} alt="Logo" />
-                {buttons[1].name}
-            </Button>
-            <Button sm={2} size="lg" style={{backgroundColor: buttons[2].color}}>
-                <img src={buttons[2].icon} alt="Logo" />
-                {buttons[2].name}
-            </Button>
-            <Button sm={2} size="lg" style={{backgroundColor: buttons[3].color}}>
-                <img src={buttons[3].icon} alt="Logo" />
-                {buttons[3].name}
-            </Button>
-         </Col>
-         <Col sm={10}className="d-flex justify-content-around">
-            <Button size="lg" style={{backgroundColor: buttons[4].color}}>
-                <img src={buttons[4].icon} alt="Logo" />
-                {buttons[4].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[5].color}}>
-                <img src={buttons[5].icon} alt="Logo" />
-                {buttons[5].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[6].color}}>
-                <img src={buttons[6].icon} alt="Logo" />
-                {buttons[6].name}
-            </Button>
-         </Col>
-         <Col sm={10}className="d-flex justify-content-around">
-            <Button size="lg" style={{backgroundColor: buttons[7].color}}>
-                <img src={buttons[7].icon} alt="Logo" />
-                {buttons[7].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[8].color}}>
-                <img src={buttons[8].icon} alt="Logo" />
-                {buttons[8].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[9].color}}>
-                <img src={buttons[9].icon} alt="Logo" />
-                {buttons[9].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[10].color}}>
-                <img src={buttons[10].icon} alt="Logo" />
-                {buttons[10].name}
-            </Button>
-         </Col>
-         <Col sm={8}className="d-flex justify-content-around">
-            <Button size="lg" style={{backgroundColor: buttons[11].color}}>
-                <img src={buttons[11].icon} alt="Logo" />
-                {buttons[11].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[12].color}}>
-                <img src={buttons[12].icon} alt="Logo" />
-                {buttons[12].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[13].color}}>
-                <img src={buttons[13].icon} alt="Logo" />    
-                {buttons[13].name}
-            </Button>
-         </Col>
-         <Col sm={10}className="d-flex justify-content-around">
-            <Button size="lg" style={{backgroundColor: buttons[14].color}}>
-                <img src={buttons[14].icon} alt="Logo" />
-                {buttons[14].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[15].color}}>
-                <img src={buttons[15].icon} alt="Logo" />
-                {buttons[15].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[16].color}}>
-                <img src={buttons[16].icon} alt="Logo" />
-                {buttons[16].name}
-            </Button>
-            <Button size="lg" style={{backgroundColor: buttons[17].color}}>
-                <img src={buttons[17].icon} alt="Logo" />
-                {buttons[17].name}
-            </Button>
-         </Col>
-      </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={6} className="d-flex justify-content-center flex-column">
+                <h3>TECNOLOGIAS</h3>
+            </Col>
+        </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[0].color}}>
+                    <img src={buttons[0].icon} alt="Logo" />
+                    {buttons[0].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[1].color}}>
+                    <img src={buttons[1].icon} alt="Logo" />
+                    {buttons[1].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">    
+                <Button size="lg" style={{backgroundColor: buttons[2].color}}>
+                    <img src={buttons[2].icon} alt="Logo" />
+                    {buttons[2].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[3].color}}>
+                    <img src={buttons[3].icon} alt="Logo" />
+                    {buttons[3].name}
+                </Button>
+            </Col>
+        </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[4].color}}>
+                    <img src={buttons[4].icon} alt="Logo" />
+                    {buttons[4].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[5].color}}>
+                    <img src={buttons[5].icon} alt="Logo" />
+                    {buttons[5].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[6].color}}>
+                    <img src={buttons[6].icon} alt="Logo" />
+                    {buttons[6].name}
+                </Button>
+            </Col>
+        </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[7].color}}>
+                    <img src={buttons[7].icon} alt="Logo" />
+                    {buttons[7].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[8].color}}>
+                    <img src={buttons[8].icon} alt="Logo" />
+                    {buttons[8].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[9].color}}>
+                    <img src={buttons[9].icon} alt="Logo" />
+                    {buttons[9].name}
+                </Button>
+            </Col>
+            <Col sm={2} className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[10].color}}>
+                    <img src={buttons[10].icon} alt="Logo" />
+                    {buttons[10].name}
+                </Button>
+            </Col>
+        </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[11].color}}>
+                    <img src={buttons[11].icon} alt="Logo" />
+                    {buttons[11].name}
+                </Button>
+            </Col>
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[12].color}}>
+                    <img src={buttons[12].icon} alt="Logo" />
+                    {buttons[12].name}
+                </Button>
+            </Col>
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[13].color}}>
+                    <img src={buttons[13].icon} alt="Logo" />    
+                    {buttons[13].name}
+                </Button>          
+                </Col>
+        </Row>
+        <Row className="d-flex justify-content-around">
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[14].color}}>
+                    <img src={buttons[14].icon} alt="Logo" />
+                    {buttons[14].name}
+                </Button>
+            </Col>
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[15].color}}>
+                    <img src={buttons[15].icon} alt="Logo" />
+                    {buttons[15].name}
+                </Button>
+            </Col>
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[16].color}}>
+                    <img src={buttons[16].icon} alt="Logo" />
+                    {buttons[16].name}
+                </Button>
+            </Col>
+            <Col sm={2}className="d-flex justify-content-around">
+                <Button size="lg" style={{backgroundColor: buttons[17].color}}>
+                    <img src={buttons[17].icon} alt="Logo" />
+                    {buttons[17].name}
+                </Button>
+            </Col>
+        </Row>
     </Container>
   );
 }
