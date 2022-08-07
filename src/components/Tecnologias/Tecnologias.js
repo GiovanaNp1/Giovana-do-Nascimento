@@ -33,7 +33,7 @@ function Tecnologias() {
     {
         name: "CSS",
         color: "#F29999",
-        icon: "https://simpleicons.org/icons/git.svg",     
+        icon: "https://simpleicons.org/icons/css3.svg",     
     },
     {
         name: "NodeJs",
@@ -43,7 +43,7 @@ function Tecnologias() {
     {
         name: "React",
         color: "#9CF9FF",
-        icon: "https://simpleicons.org/icons/nodedotjs.svg",     
+        icon: "https://simpleicons.org/icons/react.svg",     
     },
     {
         name: "Angular",
