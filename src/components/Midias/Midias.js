@@ -11,31 +11,37 @@ function Midias() {
         url: 'https://www.linkedin.com/in/giovana-do-nascimento/overlay/1635495432432/single-media-viewer/',
         name: 'Palestra - TDC 2022',
         description: 'Palestra no TDC Innovation 2022 onde falei sobre: Próxima Parada: Testes de Integração com API REST e JEST        ',
-        image: 'https://media-exp1.licdn.com/dms/image/C4D2DAQH2c-1qK-_rsw/profile-treasury-image-shrink_800_800/0/1656463192757?e=1660082400&v=beta&t=asXrIkKRgJ744JPFS3Hy_VgSy9XdJGYTwIkwCOuPJFU'
+        image: 'https://user-images.githubusercontent.com/34607779/209274289-b40772e6-7e08-4de0-8622-56cb2bb74a99.jpeg'
     },
     {
         url: 'https://www.linkedin.com/in/giovana-do-nascimento/overlay/1635495434278/single-media-viewer/',
         name: 'Profissões tecnológicas dão oportunidades para PcDs',
         description: 'Entrevista onde falei sobre carreira para PCD na área de Tecnologia. Para mim a tecnologia tem tudo para se tornar umas das áreas mais inclusivas e acessíveis para pessoas que possuem deficiência.E espero que eu consiga inspirar para que outras pessoas possam entrar nessa área tão incrível.',
-        image: 'https://media-exp1.licdn.com/dms/image/C4D2DAQGGdZSDvxyNMg/profile-treasury-image-shrink_800_800/0/1656463151289?e=1660082400&v=beta&t=1Vgh3hXm_vNY79Nos7KYzxeukhPnkArfoIENIrA4Ut0'
+        image: 'https://user-images.githubusercontent.com/34607779/209274284-d5dab65d-4eb5-4435-bb63-f93570807642.jpeg'
     },
     {
         url: 'https://www.linkedin.com/in/giovana-do-nascimento/overlay/1635495433329/single-media-viewer/',
         name: 'Mulheres usam tecnologia como ferramenta para igualdade',
         description: 'Entrevista onde Falei sobre como foi ingressar na IBM e ser mulher na área de T.I',
-        image: 'https://media-exp1.licdn.com/dms/image/sync/C4D27AQHFqqNXoJQuwQ/articleshare-shrink_800/0/1658883828044?e=1660082400&v=beta&t=hgVRILfyoGFPl8-Ucae2FXF-rUa8InjSAgZ6pdpNAow'
+        image: 'https://user-images.githubusercontent.com/34607779/209274282-38f00223-f646-41da-8b86-4e96899c2b7c.jpeg'
     },
     {
-        url: 'https://media-exp1.licdn.com/dms/image/C4D22AQG_NaqLxZ_lCg/feedshare-shrink_800/0/1653674532005?e=1662595200&v=beta&t=BIS1ceoSQvzR4rqF5Ll3JKOJY0haKJNzluPFgPoHiEA',
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:6936018465635872768/',
         name: 'Fotos I AM IBM',
         description: '',
-        image: 'https://media-exp1.licdn.com/dms/image/C4D22AQG_NaqLxZ_lCg/feedshare-shrink_800/0/1653674532005?e=1662595200&v=beta&t=BIS1ceoSQvzR4rqF5Ll3JKOJY0haKJNzluPFgPoHiEA'
+        image: 'https://user-images.githubusercontent.com/34607779/209274280-4eea1892-fe1c-4d08-b124-a191e71fe625.jpeg'
     },
     {
         url: 'https://www.linkedin.com/feed/update/urn:li:activity:6782703644795006976/',
         name: 'Reportagem Estadão',
         description: '',
-        image: 'https://media-exp1.licdn.com/dms/image/C4D22AQEqn-NJ8qRjhg/feedshare-shrink_800/0/1617122564217?e=1662595200&v=beta&t=-aJSSpbDnPbqcsr3pXpTlUDnBJO0A688BUwNSiFJ2iM'
+        image: 'https://user-images.githubusercontent.com/34607779/209274275-60f11fc0-33c1-4548-9b3f-21a445d17c4e.jpeg'
+    },
+     {
+        url: 'https://www.linkedin.com/in/giovana-do-nascimento/details/featured/1576767642434/single-media-viewer/?profileId=ACoAACUrQiQBusIUpvD5kv6ZwdEk6FX7MPWRVhs',
+        name: 'Foto tirada para a Revista você RH ed 62 mês de jun/jul - Como criar empresas realmente diversas',
+        description: '',
+        image: 'https://user-images.githubusercontent.com/34607779/209274272-37ce1058-78ee-4aee-93d9-bd9d9e25da68.jpeg'
     }
 ]
 
