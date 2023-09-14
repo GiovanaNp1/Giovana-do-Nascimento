@@ -5,13 +5,6 @@ import photo from '../../utils/image/foto2.png'
 
 const lista = [
   {
-    name: 'Encontro GDGSP e Esquenta TDC',
-    tipo: 'Meetup - Participante',
-    colorTag: 'tag-pink',
-    data: '13 de Setembro',
-    link: 'https://www.meetup.com/pt-BR/gdg-sp/events/295871045/'
-  },
-  {
       name: 'Thasfin #10',
       tipo: 'Meetup - Participante',
       colorTag: 'tag-pink',
@@ -38,6 +31,20 @@ const lista = [
     colorTag: 'tag-orange',
     data: '20 de Setembro',
     link: 'https://thedevconf.com/tdc/2023/business/trilha-devops-e-sre'
+  },
+  {
+    name: 'Acessando possibilidades no mundo de Acessibilidade Web',
+    tipo: 'Palestra',
+    colorTag: 'tag-blue',
+    data: '27 de Setembro',
+    link: 'https://www.meetup.com/pt-BR/womakerscode/events/296100255/'
+  },
+  {
+    name: 'Programaria  Mentoria - Gestão de Carreiras Pleno e Sênior',
+    tipo: 'Mentoria',
+    colorTag: 'tag-verde',
+    data: '28 de Setembro',
+    link: 'https://www.meetup.com/pt-BR/gdg-sp/events/295871045/'
   },
   {
     name: 'A Definir',
