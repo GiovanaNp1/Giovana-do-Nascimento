@@ -5,13 +5,6 @@ import photo from '../../utils/image/foto2.png'
 
 const lista = [
   {
-      name: 'Thasfin #10',
-      tipo: 'Meetup - Participante',
-      colorTag: 'tag-pink',
-      data: '15 de Setembro',
-      link: 'https://www.meetup.com/pt-BR/thasfin/events/295765022/'
-  },
-  {
     name: 'Fiap Next',
     tipo: 'Jurada',
     colorTag: 'tag-verde',
@@ -47,10 +40,38 @@ const lista = [
     link: 'https://www.meetup.com/pt-BR/gdg-sp/events/295871045/'
   },
   {
+    name: 'Programaria  Mentoria - Gestão de Carreiras Pleno e Sênior',
+    tipo: 'Mentoria',
+    colorTag: 'tag-verde',
+    data: '28 de Setembro',
+    link: 'https://www.programaria.org/programaria-summit-2023/'
+  },
+  {
+    name: 'Programaria  Mentoria - Agilidade',
+    tipo: 'Mentoria',
+    colorTag: 'tag-verde',
+    data: '28 de Setembro',
+    link: 'https://www.programaria.org/programaria-summit-2023/'
+  },
+  {
+    name: 'Programaria  Mentoria - Transicao de carreira',
+    tipo: 'Mentoria',
+    colorTag: 'tag-verde',
+    data: '28 de Setembro',
+    link: 'https://www.programaria.org/programaria-summit-2023/'
+  },
+  {
+    name: 'Programaria  Mentoria - Gestão de Carreiras Pleno e Sênior',
+    tipo: 'Mentoria',
+    colorTag: 'tag-verde',
+    data: '28 de Setembro',
+    link: 'https://www.meetup.com/pt-BR/gdg-sp/events/295871045/'
+  },
+  {
     name: 'A Definir',
     tipo: 'Palestrante',
     colorTag: 'tag-blue',
-    data: '17 de Outubro',
+    data: '7 de Outubro',
     link: 'https://www.afroyatechconf.com.br/agenda'
   }
 ]
