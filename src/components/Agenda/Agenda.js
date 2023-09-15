@@ -26,25 +26,11 @@ const lista = [
     link: 'https://thedevconf.com/tdc/2023/business/trilha-devops-e-sre'
   },
   {
-    name: 'Acessando possibilidades no mundo de Acessibilidade Web',
+    name: 'WomarkersCode Acessando possibilidades no mundo de Acessibilidade Web',
     tipo: 'Palestra',
     colorTag: 'tag-blue',
     data: '27 de Setembro',
     link: 'https://www.meetup.com/pt-BR/womakerscode/events/296100255/'
-  },
-  {
-    name: 'Programaria  Mentoria - Gestão de Carreiras Pleno e Sênior',
-    tipo: 'Mentoria',
-    colorTag: 'tag-verde',
-    data: '28 de Setembro',
-    link: 'https://www.meetup.com/pt-BR/gdg-sp/events/295871045/'
-  },
-  {
-    name: 'Programaria  Mentoria - Gestão de Carreiras Pleno e Sênior',
-    tipo: 'Mentoria',
-    colorTag: 'tag-verde',
-    data: '28 de Setembro',
-    link: 'https://www.programaria.org/programaria-summit-2023/'
   },
   {
     name: 'Programaria  Mentoria - Agilidade',
