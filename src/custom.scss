@@ -268,16 +268,18 @@ li{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
+    overflow-y: hidden;
     top: 0;
     left: 0;
-    background-color: #FBFE77;
     overflow-x: hidden;
     transition: 0.5s;
   }
   
   .overlay-content {
     position: relative;
+    display: flex;
+    justify-content: space-around;
     top: 25%;
     width: 50%;
     text-align: center;
@@ -287,6 +289,9 @@ li{
   #myNav{
     display: flex;
     justify-content: space-around;
+    img{
+        width: 15rem;
+    }
   }
   
   .overlay a {

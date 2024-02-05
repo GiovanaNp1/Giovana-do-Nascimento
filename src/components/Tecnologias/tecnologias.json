@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Javascript",
+        "color": "#FBFE77",
+        "icon": "https://simpleicons.org/icons/javascript.svg"
+    },
+    {
+        "name": "Typescript",
+        "color": "#5EB1FF",
+        "icon": "https://simpleicons.org/icons/typescript.svg"    
+    },
+    {
+        "name": "HTML",
+        "color": "#FFA553",
+        "icon": "https://simpleicons.org/icons/html5.svg"
+    },
+    {
+        "name": "Java",
+        "color": "#FF7A7A",
+        "icon": "https://cdn-icons-png.flaticon.com/512/154/154878.png" 
+    },
+    {
+        "name": "Git",
+        "color": "#9990FF",
+        "icon": "https://simpleicons.org/icons/git.svg"
+    },
+    {
+        "name": "CSS",
+        "color": "#F29999",
+        "icon": "https://simpleicons.org/icons/css3.svg"
+    },
+    {
+        "name": "NodeJs",
+        "color": "#94F69E",
+        "icon": "https://simpleicons.org/icons/nodedotjs.svg"
+    },
+    {
+        "name": "React",
+        "color": "#9CF9FF",
+        "icon": "https://simpleicons.org/icons/react.svg"
+    },
+    {
+        "name": "Angular",
+        "color": "#EA667E",
+        "icon": "https://simpleicons.org/icons/angular.svg"
+    },
+    {
+        "name": "Jest",
+        "color": "#DCDCDC",
+        "icon": "https://simpleicons.org/icons/jest.svg"
+    },
+    {
+        "name": "Python",
+        "color": "#5EB1FF",
+        "icon": "https://simpleicons.org/icons/python.svg"
+    },
+    {
+        "name": "Ionic",
+        "color": "#5EB1FF",
+        "icon": "https://simpleicons.org/icons/ionic.svg"
+    },
+    {
+        "name": "Elastic",
+        "color": "#F29999",
+        "icon": "https://simpleicons.org/icons/elastic.svg"
+    },
+    {
+        "name": "VueJs",
+        "color": "#94F69E",
+        "icon": "https://simpleicons.org/icons/vuedotjs.svg"
+    },
+    {
+        "name": "NoSQL",
+        "color": "#FBFE77",
+        "icon": "https://simpleicons.org/icons/mongodb.svg"
+    },
+    {
+        "name": "IBM CLoud",
+        "color": "#5EB1FF",
+        "icon": "https://simpleicons.org/icons/ibm.svg"
+    },
+    {
+        "name": "SQL",
+        "color": "#FFA553",
+        "icon": "https://cdn-icons-png.flaticon.com/512/29/29594.png"
+    },
+    {
+        "name": "Terminal",
+        "color": "#FF7A7A",
+        "icon": "https://simpleicons.org/icons/windowsterminal.svg"
+    }
+  ]
