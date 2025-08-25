@@ -29,7 +29,7 @@ function Tecnologias() {
         <a href="#tecnologias" class="closebtn" onClick={() => {document.getElementById("myNav").style.width = "0%";}}>x</a>
         <div class="overlay-content">
             <div>
-                <h3>{buttonSelect.name}</h3>
+                <p>{buttonSelect.name}</p>
                 <p>{buttonSelect.projects}</p>
             </div>
             <div>

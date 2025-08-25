@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import photo from '../../utils/image/foto2.png'
 
 
 function Agenda() {
@@ -57,7 +56,7 @@ function Agenda() {
             </ul>
         </Col>
         <Col sm={6} className="photo-sobre d-flex justify-content-around ai-center">
-            <img src={photo} alt="Logo" />
+            <img src="https://res.cloudinary.com/dzxyrvvbu/image/upload/v1756095734/imagem-sobre_kmwcon.png" alt="Logo" />
         </Col>
       </Row>
     </Container>

@@ -14,11 +14,13 @@ $theme-colors: (
 }
 
 body{
-    background-image: url('./utils/image/pngfind1.png'), url('./utils/image/unnamed1.png'),
-     url('./utils/image/pngfind2.png') , url('./utils/image/image19.png'), url('./utils/image/Clip-Art-Watercolor-PNG.png'), url('./utils/image/image21.png'), url('./utils/image/Pink-Watercolor-PNG.png') ;
-    background-position: left 18.75rem, right 31.25rem, right 100rem, left 187.5rem, left 262.5rem, right 343.75rem , right 343.75rem;
+    // background-image: url('./utils/image/pngfind1.png'), url('./utils/image/unnamed1.png'),
+    //  url('./utils/image/pngfind2.png') , url('./utils/image/image19.png'), url('./utils/image/Clip-Art-Watercolor-PNG.png'), url('./utils/image/image21.png'), url('./utils/image/Pink-Watercolor-PNG.png') ;
+    // background-position: left 18.75rem, right 31.25rem, right 100rem, left 187.5rem, left 262.5rem, right 343.75rem , right 343.75rem;
+    background-image: url('https://res.cloudinary.com/dzxyrvvbu/image/upload/v1756096021/Mentoria_2_htzss9.jpg');
     background-repeat: no-repeat;
-    background-origin: content-box, border-box;
+    background-size: 100% 100%;
+    // background-origin: content-box, border-box;
 }
 
 .contatos{
@@ -28,7 +30,7 @@ body{
 
 .photo-principal img{
     width: 50%;
-    box-shadow: 1.813rem 1.625rem #F2A1AB;
+    // box-shadow: 1.813rem 1.625rem #F2A1AB;
 }
 
 .icon-contato img{
